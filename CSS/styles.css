@@ -1,0 +1,608 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 10px;
+    align-items: center;
+}
+.registration{
+    display: flex;
+    gap: 10px;
+    margin-right: 80px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center; 
+}
+.navbar a{
+    margin-left: 22px;
+    color: gray;
+    font-family: 'Poppins';
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  .navbar a:hover{
+    font-style: italic;
+    font-weight: 600;
+    color: #ffac06;
+  }
+  .navbar a.active {
+    color: blue;
+}
+.navbar i {
+    margin-right: 8px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border: solid;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+}
+.main-section{
+    background-color: #ffac06;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.student{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+.contact{
+    color: blue;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.first-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+.vision{
+    display: block;
+    align-content: space-between;
+}
+.clause{
+    margin-bottom: -15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 10px;
+    color: red;
+}
+.object{
+    font-family: Verdana;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.main{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    font-weight: lighter;
+}
+.btn-flex{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+.btn{
+    background-color: #ffac06;
+    color: black;
+    text-align: center;
+    border-color: #ffac06;
+    border: #ffac06;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+}
+.intro{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+.intro strong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+}
+.img1{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.img2{
+    border-radius: 8px;
+}
+.img3{
+    border-radius: 5px;
+}
+.img4{
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+}
+.third-section{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.number{
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.value{
+    color: white;
+    font-weight: lighter;
+    font-family: Poppins;
+    font-size: 12px;
+    margin-top: -15px;
+}
+.feature{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.why{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ff7e05;
+}
+.benefit{
+    font-weight: 700;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-top: -10px;
+}
+.fourth-section{
+    background-color: rgb(221, 230, 230);
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: -80px;
+}
+.feature-item{
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.feature-item h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    margin-left: 20px;
+}
+.feature-item p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(32, 32, 32);
+    margin-left: 20px;
+}
+.imgs1{
+    background-color: blue;
+    border-color: blue;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.imgs2{
+    background-color: green;
+    border-color: green;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.imgs3{
+    background-color: red;
+    border-color:  rgb(121, 22, 22);
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.imgs4{
+    background-color: pink;
+    border-color:  pink;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.imag{
+    padding-top: 150px;
+}
+.cask{
+    border-radius: 5px;
+    position: relative;
+}
+.book{
+    position: relative;
+    padding-left: 130px;
+    top: -150px;
+    border-color: #ff7e05;
+    border-radius: 5px;
+}
+.shedule{
+    display: flex;
+    flex-direction: inline;
+    gap: 100px;
+    margin-left: 160px;
+    align-items: center;
+}
+.shedules{
+    display: flex;
+    flex-direction: inline;
+    gap: 100px;
+    margin-left: 160px;
+    align-items: center;
+    margin-top: -100px;
+}
+.shedule h5{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ff7e05;
+    text-align: justify;
+}
+.shedule h6{
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
+    text-align: justify;
+}
+.shedule p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(32, 32, 32);
+    margin-top: -20px;
+}
+.shedules h5{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ff7e05;
+    text-align: justify;
+}
+.shedules h6{
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
+    text-align: justify;
+}
+.shedules p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(32, 32, 32);
+    margin-top: -20px;
+}
+.btns{
+    background-color: #ffac06;
+    color: black;
+    text-align: center;
+    border-color: #ffac06;
+    border: #ffac06;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    margin-right: 1000px;
+}
+.subject{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: orange;
+}
+.subject-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+.grid-items{
+    display: flex;
+    flex-direction: inline;
+    gap: 10px;
+    align-items: center;
+    border-color: red;
+    border-radius: 2px;
+}
+.grid-items h6{
+    font-weight: 700;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.testimonials{
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.testimonials h5{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ff7e05;
+    text-align: center;
+}
+.testimonials h6{
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
+    text-align: center;
+}
+.test-img{
+    display: flex;
+    flex-direction: inline;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.student4{
+    border: blue;
+    border-color: blue;
+    border-radius: 100px;
+}
+.testimonial{
+    border-radius: 100px;
+    border-color: blue;
+    color: blue;
+    border: solid;
+}
+.testimonial1{
+    border: blue;
+    border-color: blue;
+    border-radius: 100px;
+}
+.citation{
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+.citation h6{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: -2px;
+}
+.cite{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -25px;
+    text-align: center;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(32, 31, 31);
+    margin-top: -8px;
+}
+@media screen and (width: 600px){
+    .herosection{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .logo{
+        margin-top: 10px;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+        
+    }
+    .navbar a{
+        color: gray;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        font-family: 'Poppins';
+        font-size: 9px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      .registration{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .sign_in{
+        font-size: 10px;
+
+      }
+      .button{
+        background-color: blue;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        border-color: blue;
+        border: solid;
+        border-radius: 20px;
+        width: 60px;
+        height: 25px;
+    }
+    .main-section{
+        width: 600px;
+    }
+    .intro{
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+    }
+    .intro strong{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: black;
+    }
+    .third-section{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        background-color: blue;
+        background-position: 100%;
+        background-size: cover;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 600px;
+    }
+    .features{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-bottom: 40px;
+    }
+    .feature-item{
+        align-items: center;
+        align-content: center;
+        border-radius: 5px;
+        border: solid;
+        border-color: white;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .feature-item h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        text-align: justify;
+        color: black;
+        margin-left: 20px;
+    }
+    .feature-item p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        text-align: justify;
+        color: rgb(32, 32, 32);
+        margin-left: 20px;
+    }
+    .shedule{
+        display: flex;
+        flex-direction: inline;
+        gap: 20px;
+        margin: 20px;
+        align-items: center;
+    }
+    .shedule h5{
+        font-size: 10px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #ff7e05;
+        text-align: justify;
+    }
+    .shedule h6{
+        font-weight: 700;
+        font-style: normal;
+        text-transform: capitalize;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 14px;
+        color: black;
+        margin-top: -10px;
+        text-align: justify;
+    }
+    .shedule p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        text-align: justify;
+        color: rgb(32, 32, 32);
+        margin-top: -20px;
+    }
+    .btns{
+        background-color: #ffac06;
+        color: black;
+        text-align: center;
+        border-color: #ffac06;
+        border: #ffac06;
+        border-radius: 20px;
+        width: 110px;
+        height: 30px;
+        margin-right: 1000px;
+    }
+    .subject-grid{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: -40px;
+        margin-bottom: -20px;
+    }
+}
